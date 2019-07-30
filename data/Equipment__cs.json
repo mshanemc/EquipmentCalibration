@@ -1,0 +1,49 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Equipment__c",
+                "referenceId": "Equipment__cRef1"
+            },
+            "Name": "Engineering - Multimeter",
+            "Calibration_Interval_Days__c": 45,
+            "Department__c": "Engineering",
+            "Last_Calibration_Date__c": "2019-07-17",
+            "Manufacturer__c": "TestEquipCo",
+            "Model_Number__c": "MM1120",
+            "Serial_Number__c": "ENG11220",
+            "Status__c": "Calibration Valid",
+            "Type__c": "Multimeter"
+        },
+        {
+            "attributes": {
+                "type": "Equipment__c",
+                "referenceId": "Equipment__cRef2"
+            },
+            "Name": "Digital Scales",
+            "Calibration_Interval_Days__c": 60,
+            "Department__c": "Shipping",
+            "Last_Calibration_Date__c": "2019-06-06",
+            "Manufacturer__c": "SampleCorp",
+            "Model_Number__c": "DS-7771",
+            "Serial_Number__c": "XRT-1140",
+            "Status__c": "Calibration Valid",
+            "Type__c": "Digital Scale"
+        },
+        {
+            "attributes": {
+                "type": "Equipment__c",
+                "referenceId": "Equipment__cRef3"
+            },
+            "Name": "RMA Oscilloscope #1",
+            "Calibration_Interval_Days__c": 30,
+            "Department__c": "RMA",
+            "Last_Calibration_Date__c": "2019-06-25",
+            "Manufacturer__c": "TestCorp",
+            "Model_Number__c": "RX1203",
+            "Serial_Number__c": "OS96281-2",
+            "Status__c": "Calibration Due",
+            "Type__c": "Oscilloscope"
+        }
+    ]
+}

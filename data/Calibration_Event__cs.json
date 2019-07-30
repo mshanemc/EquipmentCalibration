@@ -1,0 +1,34 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Calibration_Event__c",
+                "referenceId": "Calibration_Event__cRef1"
+            },
+            "Equipment__c": "@Equipment__cRef1",
+            "Date_of_Calibration__c": "2019-07-17",
+            "Performed_By__c": "In-House",
+            "Calibration_Notes__c": "<p>Equipment Calibration Performed</p>"
+        },
+        {
+            "attributes": {
+                "type": "Calibration_Event__c",
+                "referenceId": "Calibration_Event__cRef2"
+            },
+            "Equipment__c": "@Equipment__cRef2",
+            "Date_of_Calibration__c": "2019-06-06",
+            "Performed_By__c": "In-House",
+            "Calibration_Notes__c": "<p><span style=\"color: rgb(62, 62, 60);\">Equipment Calibration Performed</span></p>"
+        },
+        {
+            "attributes": {
+                "type": "Calibration_Event__c",
+                "referenceId": "Calibration_Event__cRef3"
+            },
+            "Equipment__c": "@Equipment__cRef3",
+            "Date_of_Calibration__c": "2019-06-25",
+            "Performed_By__c": "In-House",
+            "Calibration_Notes__c": "<p><span style=\"color: rgb(62, 62, 60);\">Equipment Calibration Performed</span></p>"
+        }
+    ]
+}

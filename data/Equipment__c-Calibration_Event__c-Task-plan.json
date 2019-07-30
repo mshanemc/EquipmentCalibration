@@ -1,0 +1,26 @@
+[
+    {
+        "sobject": "Equipment__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Equipment__cs.json"
+        ]
+    },
+    {
+        "sobject": "Calibration_Event__c",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "Calibration_Event__cs.json"
+        ]
+    },
+    {
+        "sobject": "Task",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "Tasks.json"
+        ]
+    }
+]

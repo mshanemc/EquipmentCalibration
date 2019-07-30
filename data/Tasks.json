@@ -1,0 +1,24 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Task",
+                "referenceId": "TaskRef1"
+            },
+            "Subject": "Perform Calibration for Engineering - Multimeter",
+            "ActivityDate": "2019-09-13",
+            "Status": "Not Started",
+            "WhatId": "@Equipment__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "Task",
+                "referenceId": "TaskRef2"
+            },
+            "Subject": "Perform Calibration for Digital Scales",
+            "ActivityDate": "2019-08-05",
+            "Status": "Not Started",
+            "WhatId": "@Equipment__cRef2"
+        }
+    ]
+}
