@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Next_Due_Date__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( NOT(ISBLANK(Last_Calibration_Date__c)) &amp;&amp; NOT(ISBLANK(Calibration_Interval_Days__c)), 
+Last_Calibration_Date__c +  Calibration_Interval_Days__c ,Null)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Next Due Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

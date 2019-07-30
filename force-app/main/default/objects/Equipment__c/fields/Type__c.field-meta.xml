@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Multimeter</fullName>
+                <default>false</default>
+                <label>Multimeter</label>
+            </value>
+            <value>
+                <fullName>Calipers</fullName>
+                <default>false</default>
+                <label>Calipers</label>
+            </value>
+            <value>
+                <fullName>Oscilloscope</fullName>
+                <default>false</default>
+                <label>Oscilloscope</label>
+            </value>
+            <value>
+                <fullName>Digital Scale</fullName>
+                <default>false</default>
+                <label>Digital Scale</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

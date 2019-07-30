@@ -1,0 +1,7 @@
+Note:
+
+Item {!Equipment__c.Name} is due for it's next calibration on {!Equipment__c.Next_Due_Date__c}.  
+
+Please update the equipment calibration record using the link below:
+
+{!Equipment__c.Link}
