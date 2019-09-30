@@ -50,8 +50,6 @@ Create the Calibration Event object
 
 Navigate to Setup > Object Manager > Calibration Event > Fields & Relationships
 
-Create a Relationship field
-
 1. Click New
 2. Select **Master-Detail Relationship** for the data type.
 3. Click Next
@@ -63,38 +61,33 @@ Create a Relationship field
    - Child Relationship Name: Calibration_Events
 7. Click Next > Next > Next > Save & New to create the field.
 
-Create a Date field
+Select **Date** for the data type
 
-1. Select **Date** for the data type
-2. Click Next
-3. Use the following values to create the Calibration Date field:
+1. Click Next
+2. Use the following values to create the Calibration Date field:
+   - Field Label: Calibration Date
+   - Field Name: Calibration_Date
+3. Click Next > Next > Save & New
 
-- Field Label: Calibration Date
-- Field Name: Calibration_Date
+Select **Text Area (Rich)**
 
-4. Click Next > Next > Save & New
-
-Create a Rich Text field
-
-1. Select **Text Area (Rich)**
-2. Click Next
-3. Use the following values to create the Calibration Notes field:
+1. Click Next
+2. Use the following values to create the Calibration Notes field:
    - Field Label: Calibration Notes
    - Field Name: Calibration_Notes
-4. Click Next > Next > Save & New
+3. Click Next > Next > Save & New
 
-Create a Picklist
+Select **Picklist** for the data type.
 
-1. Select **Picklist** for the data type.
-2. Click Next
-3. Use the following values to create the Performed By field:
+1. Click Next
+2. Use the following values to create the Performed By field:
    - Field Label: Performed By
    - Field Name: Performed_By
    - Select **Enter values, with each value separated by a new line**
    - Add these values to the box provided (or customize the list to fit your needs)
      - Internal - QA Team
      - External Vendor
-4. Click Next > Next > Save.
+3. Click Next > Next > Save.
 
 Navigate to Setup > Object Manager > Equipment > Fields & Relationships
 
@@ -196,10 +189,8 @@ Select Formula
     - Decimal Places: 0
 3.  Click Next
 4.  Use this value for the box on the Enter Formula Screen:
-
-        `IF( Next_Due_Date__c >= TODAY(), Next_Due_Date__c - TODAY(), 0)
-
-    Click Next > Next > Save`
+    `IF( Next_Due_Date__c >= TODAY(), Next_Due_Date__c - TODAY(), 0)`
+5.  Click Next > Next > Save`
 
 Create a quick action for entering new calibration events
 
