@@ -1,10 +1,11 @@
 {
-  "orgName": "Demo Company",
+  "orgName": "Trailblazer Apps",
   "edition": "Developer",
-  "features": [],
+  "description": "Equipment Calibration",
+  "adminEmail": "shane@mailinator.com",
   "settings": {
-    "orgPreferenceSettings": {
-      "s1DesktopEnabled": true
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
     }
   }
 }
